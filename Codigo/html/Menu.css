@@ -1,0 +1,117 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*Cores de Fundo*/
+header,
+footer {
+    background-color: rgb(0, 0, 0);
+}
+
+body,
+.doacao {
+    background-color: rgb(255, 255, 255);
+}
+
+#palava {
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    height: 510px;
+}
+
+#resultado {
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    height: 510px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.form-check-input {
+    border-color: black;
+}
+
+a,
+.ptexto,
+b,
+.navbar-brand,
+.nav-link {
+    text-decoration: none;
+    color: rgb(236, 224, 224)
+}
+
+.submit {
+    width: 100%;
+    height: 9%;
+}
+
+.img {
+    width: 100%;
+    border: solid;
+    border-radius: 10%;
+}
+
+#img{
+    height: 50%; 
+}
+
+.linha {
+    color: rgb(0, 0, 0);
+
+}
+
+.navbar-toggler {
+    border-color: rgb(0, 0, 0);
+}
+
+footer {
+    position: absolute;
+    bottom: inherit;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+/*-------------------------------Mudança de cor-------------------------------*/
+
+a:hover,
+.navbar-brand:hover {
+    color: rgb(127, 89, 89);
+    cursor: pointer;
+    transition-duration: 380ms;
+}
+
+#submit:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(127, 89, 89);
+    cursor: pointer;
+    transition-duration: 380ms;
+}
+
+.nav-link:hover {
+    color: rgba(127, 89, 89);
+    cursor: pointer;
+    transition-duration: 80ms;
+}
+
+.navbar-toggler:hover {
+    border-color: rgb(127, 89, 89);
+}
+
+.navbar-toggler {
+    color:rgb(127, 89, 89)
+}
+
+.btn{
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    color: rgb(243, 243, 243);
+}
+
+.btn:hover{
+    border-color: black;
+    color: white;
+    background-color:rgba(127, 89, 89);
+}
